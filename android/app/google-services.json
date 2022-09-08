@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "658247087234",
+    "project_id": "flutterflowpro",
+    "storage_bucket": "flutterflowpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658247087234:android:3be4efd940e9c2649f709b",
+        "android_client_info": {
+          "package_name": "com.mycompany.flutterflowpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658247087234-n9qau5qbt5s3139jhlvakn2jn929a8ra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.flutterflowpro",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "658247087234-he6csi24icspataeorae2sc7lj6ht2j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC816rtyysRl72sgd3nq35xUdZLHj33Z_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658247087234-he6csi24icspataeorae2sc7lj6ht2j5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658247087234-5vo2hlh40qq4gcruuuevq093q7hb4vip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.loginscreen"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658247087234:android:8900e2b7a326fb0a9f709b",
+        "android_client_info": {
+          "package_name": "com.mycompany.loginscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658247087234-6454ae233v91cqvncftb20til0l7nt1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.loginscreen",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "658247087234-he6csi24icspataeorae2sc7lj6ht2j5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC816rtyysRl72sgd3nq35xUdZLHj33Z_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658247087234-he6csi24icspataeorae2sc7lj6ht2j5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658247087234-5vo2hlh40qq4gcruuuevq093q7hb4vip.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.loginscreen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
