@@ -74,7 +74,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                         labelStyle:
                             FlutterFlowTheme.of(context).bodyText1.override(
                                   fontFamily: 'Poppins',
-                                  fontSize: 30,
+                                  fontSize: MediaQuery.of(context).size.width/18,
                                 ),
                         indicatorColor:
                             FlutterFlowTheme.of(context).primaryBtnText,
