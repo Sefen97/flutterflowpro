@@ -63,7 +63,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                         type: PageTransitionType.fade,
                         child: FlutterFlowExpandedImageView(
                           image: Image.asset(
-                            'assets/images/flutterflow.avif',
+                            'assets/images/backgroung.jpg',
                             fit: BoxFit.contain,
                           ),
                           allowRotation: true,
@@ -77,7 +77,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                     tag: 'imageTag',
                     transitionOnUserGestures: true,
                     child: Image.asset(
-                      'assets/images/flutterflow.avif',
+                      'assets/images/backgroung.jpg',
                       width: double.infinity,
                       height: double.infinity,
                       fit: BoxFit.cover,
@@ -95,14 +95,16 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
                     child: Column(
                       children: [
                         TabBar(
-                          labelColor: Color(0xFF232D51),
-                          unselectedLabelColor: Color(0x70635656),
+                          labelColor:
+                              FlutterFlowTheme.of(context).primaryBtnText,
+                          unselectedLabelColor: Color(0xBFF3E5E5),
                           labelStyle:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'Poppins',
                                     fontSize: 30,
                                   ),
-                          indicatorColor: Color(0xFF170C0C),
+                          indicatorColor:
+                              FlutterFlowTheme.of(context).primaryBtnText,
                           indicatorWeight: 3,
                           tabs: [
                             Tab(

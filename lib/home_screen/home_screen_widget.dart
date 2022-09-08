@@ -27,7 +27,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
             Align(
               alignment: AlignmentDirectional(0, 0),
               child: Image.asset(
-                'assets/images/flutterflow.avif',
+                'assets/images/backgroung.jpg',
                 width: double.infinity,
                 height: double.infinity,
                 fit: BoxFit.cover,
