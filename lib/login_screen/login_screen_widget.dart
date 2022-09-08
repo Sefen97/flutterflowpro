@@ -52,7 +52,7 @@ class _LoginScreenWidgetState extends State<LoginScreenWidget> {
             decoration: BoxDecoration(
               color: FlutterFlowTheme.of(context).secondaryBackground,
               image: DecorationImage(
-                fit: BoxFit.cover,
+                fit: BoxFit.fill,
                 image: Image.asset(
                   'assets/images/backgroung.jpg',
                 ).image,
